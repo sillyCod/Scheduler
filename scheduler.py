@@ -23,6 +23,6 @@ class Task(object):
 if __name__ == '__main__':
     class A(Task):
         def execute_task(self):
-            print 'I\'m A, inherit Task.'
+            print('I\'m A, inherit Task.')
 
     A(2015).start_task()
